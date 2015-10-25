@@ -1,0 +1,80 @@
+These are some project startup notes on process and libraries needed for the project.
+
+Installations:
+- Git
+- SQLite --DONE--
+
+
+Libraries:
+- Peewee --DONE--
+- flake8 --DONE--
+
+Tables:
+- Door cards
+- Treasure cards
+
+Objects:
+- Card
+- Door card
+- Treasure card
+- Player
+- Backpack
+- Monster
+- Armor/Weapon
+- Item
+- Go Up A Level (?)
+- Modifier
+- Curse!
+- Class
+- Race
+- Battle
+
+Methods:
+- Create Player
+- Add Armor/Weapon
+- Put in Backpack
+- Play Card
+- Player Help
+- Add Race
+- Add Class
+- Sell Items
+- Go Up A Level
+- Dice Roll
+- Loot Room
+- Grab Treasure
+- Go Down A Level
+- Die
+- Add Card
+- Remove Card
+- Run Away
+
+
+Player:
+- Name
+- Hand 1
+- Hand 2
+- Head
+- Feet
+- Armor
+- Legs
+- Backpack
+- Modifier
+- Class
+- Race
+- Half-Breed
+- Super Munchkin
+- Run Away Roll Modifier
+
+Backpack:
+- Items (**kwargs?)
+
+Monster:
+- Name
+- Type
+- Undead
+- Level
+- Treasure
+- Levels
+- Special Modifiers
+- Bad Stuff
+-

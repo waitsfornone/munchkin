@@ -1,0 +1,22 @@
+For a battle we start out with an equipped player. I need to hold 2 hands, Armor, Head, Feet, Legs, with spots for cheat and hireling. (Level as well)
+
+The player also has class and race slots and a backpack full of other items.
+
+The player is setup and managed by the user, but the battle calculations are done automatically.
+
+First step is for the player to enter the monster they are fighting. We will need the ability to add extra monsters to the fight.
+
+Provide the calculated win/loss with power stats for each side.
+
+Then we can either add a player or a card to help either side.
+
+Player will simply ask for the power of the player.
+
+Card will ask for the card name, and will pull from the database.
+
+Lastly, will need a die roll process to help with running away. (enter roll amount)
+
+Track treasure and level rewards, as well as provide instructions for the bad stuff once the battle is over. (have a key command for finishing the battle)
+
+
+##### I should make sure that the game logic and the game display are in two separate files. And the game runs in a 3rd. This will allow for iteration later. See IntelliJ project.
