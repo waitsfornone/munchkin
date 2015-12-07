@@ -30,7 +30,7 @@ class Treasure(DBModel):
     race_limit = CharField(max_length=25)
     gender_limit = CharField(max_length=25)
     special_use = TextField()
-    big = BooleanField(default=)
+    big = BooleanField()
     roll_modifier = IntegerField()
     expansion = CharField(max_length=50)
 

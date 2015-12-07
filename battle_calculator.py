@@ -62,6 +62,6 @@ def main_menu(plyr=None):
 
 if __name__ == '__main__':
     db.connect()
-    while True:
+    # while True:
         # instantiate your class
         # raise the exit from wihin the script
