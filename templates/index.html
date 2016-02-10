@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h2>Menu</h2>
+  <div>
+    <a href="{{ url_for('new_player') }}">Create New Player</a>
+  </div>
+  <p>{{ data.name }}</p>
+{% endblock %}

@@ -1,8 +1,9 @@
 __author__ = 'time'
 
-import models
+# import models
 import ast
-import player
+import utils.player
+
 
 def class_check(obj,player):
     class_limit = ast.literal_eval(obj.class_limit)

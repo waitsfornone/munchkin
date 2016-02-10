@@ -1,5 +1,7 @@
 __author__ = 'time'
 
+"""This is the game Class"""
+
 import player
 from peewee import *
 import sys
@@ -20,7 +22,9 @@ def main_menu(plyr=None):
         main_menu(plyr)
     elif choice == '2':
         if plyr:
-            plyr.equip()
+            selection = input("Enter a card: ")
+            plyr.equip(selection)
+            main_menu(plyr)
         else:
             print("You have not created a player yet.")
             main_menu(plyr)
@@ -54,14 +58,25 @@ def main_menu(plyr=None):
         print("Not a valid choice")
         main_menu(plyr)
 
-# print("Hello! Welcome to the Munchkin Battle Calculator!")
-# player1 = False
-# main_menu(player1)
-# print(player1)
+print("Hello! Welcome to the Munchkin Battle Calculator!")
+player1 = False
+main_menu(player1)
+print(player1)
+
+# Create player:
+# name = input("What is your name? ")
+# temp_lvl = -1
+# while temp_lvl == -1:
+#     try:
+#         temp_lvl = int(input("What is your current level? "))
+#     except ValueError:
+#         print("Not a number, please enter a number.")
+# Player(name, temp_lvl, gender)
 
 
 if __name__ == '__main__':
     db.connect()
+    main_menu()
     # while True:
         # instantiate your class
         # raise the exit from wihin the script
